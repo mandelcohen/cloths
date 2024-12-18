@@ -1,6 +1,12 @@
 <h1 align="center">Cloth Simulation</h1>
-<h3 align="center">Exploring PBD for real-time cloth simulation. By Mandel Cohen 2024</h3>
-<br/><br/>
+<h3 align="center">Exploring PBD for real-time cloth simulation.</h3>
+<h3 align="center">By Mandel Cohen, 2024</h3>
+<br/>
+
+<p align="center" width="100%">
+    <img width="80%" src="Media/1_detail.gif">
+</p>
+<br/>
 
 ## Introduction
 The objective of this project was to develop an in-depth understanding of Position-Based Dynamics (PBD) and cloth simulation by creating a custom physics engine capable of producing  realistic, visually engaging cloth behaviour in real-time. Drawing on my background in textiles, my focus was on capturing the nuanced “feel” and drape of various fabric types.
@@ -24,11 +30,15 @@ These initial weeks were dedicated to building a foundation in PBD and setting u
 ### 2D Simulation and Picks System
 I started with a 2D setup, implementing a system of points called “picks” (from the textile term “picks per inch”). Basic constraints such as structural constraints were introduced to maintain the cloth's form. To make the simulation interactive, I added:
 * The ability to apply external forces via mouse key presses.
-  ![move](https://github.com/user-attachments/assets/78f13fe1-5f59-44f5-883f-525ec90cf6a7)
+  <p align="center" width="100%">
+    <img width="100%" src="Media/2_2Dforce.gif">
+</p>
   <br/><br/>
   
 * Features to pin and unpin picks dynamically during the simulation.
-  ![pin_unpin](https://github.com/user-attachments/assets/b1b67f0d-788b-4638-8827-b60b96b44575)
+   <p align="center" width="100%">
+    <img width="100%" src="Media/3_2Dunpinn.gif">
+</p>
   <br/>
 
 As I added more constraints, such as bending and shear constraints, the simulation evolved to exhibit more cloth-like behaviour, moving away from the initial jelly-like appearance. Gradually, I refined my understanding of the underlying math and integration techniques.
@@ -37,28 +47,36 @@ As I added more constraints, such as bending and shear constraints, the simulati
 ### Fabric Properties 
 I introduced a fabric properties system to define parameters like stiffness, mass, and damping. This allowed me to simulate different fabric types and tailor the behaviour of the cloth to mimic real-world materials.
 
-![FabricPresets](https://github.com/user-attachments/assets/bca90bc4-49da-4f47-b201-2d2650429bea)
-<br/><br/>
+  <p align="center" width="100%">
+    <img width="100%" src="Media/4_2Dpresets.gif">
+</p>
+  <br/><br/>
 
 ## **Weeks 4-6: Expanding to 3D and Enhancing Interactivity**
 
 ### Transition to 3D
 A major milestone was achieved in week four with the transition from 2D to 3D simulation. This involved generating a custom mesh for the cloth, significantly increasing the complexity and realism of the simulation. The mesh system laid the groundwork for adding dynamic interactions and effects.
 
-![PBD_mesh](https://github.com/user-attachments/assets/d960eb8f-4d67-461d-8e7d-535669b3f5d3)
-<br/>
+ <p align="center" width="100%">
+    <img width="100%" src="Media/5_3Dmesh.gif">
+</p>
+  <br/>
 
 ### Sphere Interaction
 I introduced a sphere that could interact with the cloth, simulating collisions. This feature added depth to the simulation and allowed for more engaging demonstrations of the cloth’s responsiveness. Understanding collision detection and response between the sphere and the cloth mesh became a key focus during this phase.
 
-![Sphere](https://github.com/user-attachments/assets/84862a05-c8c8-4b00-b9ba-c692787a9729)
-<br/>
+ <p align="center" width="100%">
+    <img width="100%" src="Media/6_3Dsphere.gif">
+</p>
+  <br/>
 
 ### Shaders and Visual Enhancements
 To make the fabrics visually engaging, I explored shader programming, focusing on understanding normals and how they influence the appearance of light and shadow on the cloth. These experiments led to the creation of procedural shaders that highlighted the texture and shine of the fabrics, enhancing their lifelike qualities without relying on pre-made textures or normal maps.
 
-![Shaders](https://github.com/user-attachments/assets/006ebba6-015c-4fcb-bdd0-ff915e08d13d)
-<br/>
+ <p align="center" width="100%">
+    <img width="100%" src="Media/7_shaders.gif">
+</p>
+  <br/>
 
 
 ### User Interface
@@ -67,8 +85,10 @@ To improve accessibility and usability, I developed a simple user interface. Thi
 * Toggle interactive tools, such as wind and the sphere.
 * Switch between wireframe and solid rendering modes.
 
-![newWind](https://github.com/user-attachments/assets/8d688089-5033-43eb-be2d-e9d5b9e4b40d)
-<br/>
+<p align="center" width="100%">
+    <img width="100%" src="Media/8_tutorial.gif">
+</p>
+  <br/>
 
 
 ## Results and Reflections
@@ -95,6 +115,11 @@ The iterative process of refining constraints, collision handling, and fabric pr
 **Online Resources:**
 * *The Book of Shaders*. [https://thebookofshaders.com](https://thebookofshaders.com/)
 * *Raylib.* [https://www.raylib.com](https://www.raylib.com/)
+
+⠀
+
+
+
 
 ⠀
 
