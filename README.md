@@ -3,11 +3,6 @@
 <h3 align="center">By Mandel Cohen, 2024</h3>
 <br/>
 
-<p align="center" width="100%">
-    <img width="80%" src="Media/1_detail.gif">
-</p>
-<br/>
-
 ## Introduction
 The objective of this project was to develop an in-depth understanding of Position-Based Dynamics (PBD) and cloth simulation by creating a custom physics engine capable of producing  realistic, visually engaging cloth behaviour in real-time. Drawing on my background in textiles, my focus was on capturing the nuanced “feel” and drape of various fabric types.
 
@@ -81,12 +76,21 @@ To make the fabrics visually engaging, I explored shader programming, focusing o
 
 ### User Interface
 To improve accessibility and usability, I developed a simple user interface. This UI enabled users to:
-* Select different fabric presets.
-* Toggle interactive tools, such as wind and the sphere.
-* Switch between wireframe and solid rendering modes.
-
+* Select different fabric presets as shown above.
+* Toggle interactive tools:
+  * Applying random wind forces:
+     <p align="center" width="100%">
+    <img width="100%" src="Media/8_wind.gif">
+</p>
+  <br/>
+  * Rendering as wireframe or solid:
+  <p align="center" width="100%">
+    <img width="100%" src="Media/8_wire.gif">
+</p>
+  <br/>
+  * Add a sphere collider that interacts with the cloth:
 <p align="center" width="100%">
-    <img width="100%" src="Media/8_tutorial.gif">
+    <img width="100%" src="Media/8_sphere.gif">
 </p>
   <br/>
 
