@@ -81,11 +81,13 @@ To improve accessibility and usability, I developed a simple user interface. Thi
     <img width="100%" src="Media/8_wind.gif">
 </p>
   <br/>
+  
 * Rendering as wireframe or solid:
   <p align="center" width="100%">
     <img width="100%" src="Media/8_wire.gif">
 </p>
   <br/>
+  
 * Add a sphere collider that interacts with the cloth:
   <p align="center" width="100%">
     <img width="100%" src="Media/8_sphere.gif">
