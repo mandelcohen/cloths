@@ -75,21 +75,19 @@ To make the fabrics visually engaging, I explored shader programming, focusing o
 
 
 ### User Interface
-To improve accessibility and usability, I developed a simple user interface. This UI enabled users to:
-* Select different fabric presets as shown above.
-* Toggle interactive tools:
-  * Applying random wind forces:
-     <p align="center" width="100%">
+To improve accessibility and usability, I developed a simple user interface. This UI enabled users to select different fabric presets as shown above, and toggle interactive tools:
+* Applying random wind forces:
+   <p align="center" width="100%">
     <img width="100%" src="Media/8_wind.gif">
 </p>
   <br/>
-  * Rendering as wireframe or solid:
+* Rendering as wireframe or solid:
   <p align="center" width="100%">
     <img width="100%" src="Media/8_wire.gif">
 </p>
   <br/>
-  * Add a sphere collider that interacts with the cloth:
-<p align="center" width="100%">
+* Add a sphere collider that interacts with the cloth:
+  <p align="center" width="100%">
     <img width="100%" src="Media/8_sphere.gif">
 </p>
   <br/>
