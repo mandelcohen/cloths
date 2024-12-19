@@ -97,7 +97,7 @@ By the end of the project, the simulation achieved a balance between physical re
 The iterative process of refining constraints, collision handling, and fabric properties deepened my understanding of both the physics and artistic aspects of cloth simulation. The project not only met its goals but also inspired further exploration into advanced topics such as compute shaders for performance optimisation and more complex fabric interactions.
 
 ### Watch on Vimeo by clicking the image below:
-[![Watch the trailer](https://img.youtube.com/vi/JQ9lg9llYRE/maxresdefault.jpg)](https://youtu.be/JQ9lg9llYRE)
+[![Video](Media/9_VideoImg.png)](https://vimeo.com/1040534736/33a6682b93)
 
 ## Sources
 **Papers:**
@@ -115,11 +115,6 @@ The iterative process of refining constraints, collision handling, and fabric pr
 **Online Resources:**
 * *The Book of Shaders*. [https://thebookofshaders.com](https://thebookofshaders.com/)
 * *Raylib.* [https://www.raylib.com](https://www.raylib.com/)
-
-⠀
-
-
-
 
 ⠀
 
