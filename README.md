@@ -6,7 +6,7 @@
 ## Introduction
 The objective of this project was to develop an in-depth understanding of Position-Based Dynamics (PBD) and cloth simulation by creating a custom physics engine capable of producing  realistic, visually engaging cloth behaviour in real-time. Drawing on my background in textiles, my focus was on capturing the nuanced “feel” and drape of various fabric types.
 
-In addition to the physical simulation, I explored shader techniques to enhance the visual quality of the fabrics by incorporating fabric specific properties. My aim was to create an interactive demo that brings close to life with both physical accuracy in aesthetic detail. This demo showcases, various fabric types, interactivity, and dynamic affects presenting cloth as a believable and immersive element within a visual environment.
+In addition to the physical simulation, I explored shader techniques to enhance the visual quality of the fabrics by incorporating fabric specific properties. My aim was to create an interactive demo that brings close to life with both physical accuracy in aesthetic detail. This demo showcases various fabric types, interactivity, and dynamic affects, presenting cloth as a believable and immersive element within a visual environment.
 <br/><br/>
 
 
